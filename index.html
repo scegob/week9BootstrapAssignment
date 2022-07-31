@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" type="image/png" href="./images/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="./index.html">
+                <img src="./images/logo.svg" alt="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./recipes.html">Recipes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>  
+    </header>
+    <main class="my-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-7 mt-5">
+                    <img class="img-fluid" src="./images/Flag-Somalia.webp" alt="">
+                </div>
+                <div class="col-md-5">
+                    <h2 class="mt-5">Hello world, welcome to Simply Recipes the corner of the internet to showcase the wonders of Somali cuisine</h2>
+                    <p class="mt-4">
+                      The Federal Republic of Somalia, is a country in the Horn of Africa. 
+                      The country is bordered by Ethiopia to the west, Djibouti to the northwest, 
+                      the Gulf of Aden to the north, the Indian Ocean to the east, and Kenya to the southwest. 
+                      Somalia has the longest coastline on Africa's mainland. Due to geographic and historical reasons,
+                      Somali cuisine has a wide mixture of diverse influences due to Somalia's rich tradition of trade and commerce.
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="bg-primary text-white my-3 py-4 card text-center">
+                        <div class="card-body">
+                        Are you ready to experience the world of Somali cuisine?
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="card-group">
+                    <div class="card">
+                      <img src="./images/recipes/receipe-1/Pineapple-Upside-Down-Cake-1-Somali-Food-Blog.jpg" class="card-img-top" alt="Pineapple upside-down cake">
+                      <div class="card-body">
+                        <h5 class="card-title">Pineapple Upside-Down Cake (Doolsho Cananaas)</h5>
+                        <p class="card-text">
+                          Are you looking  for a desert to share with your friends or family?
+                        </p>
+                        <div>
+                            <a href="./receipe1.html"><button type="button" class="btn btn-primary">Read More</button></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="./images/recipes/receipe-2/Iskukaris-1.jpg" class="card-img-top" alt="one-pot rice & Goat Meat">
+                      <div class="card-body">
+                        <h5 class="card-title">One-pot Rice & Goat Meat (Bariis Isku-karis)</h5>
+                        <p class="card-text">
+                          This One-pot rice and Goat Meat is a great meal to have and will keep you full for the whole day.
+                        </p>
+                        <div>
+                            <a href="./recipe2.html"><button type="button" class="btn btn-primary">Read More</button></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="./images/recipes/receipe-3/Sambuus-9.jpg" class="card-img-top" alt="Beef Samosas">
+                      <div class="card-body">
+                        <h5 class="card-title">Beef Samosas (Sambuusa)</h5>
+                        <p class="card-text">
+                          A great appetizer or snack to enjoy with people especially during holidays.
+                        </p>
+                        <div>
+                            <a href="./recipe3.html"><button type="button" class="btn btn-primary">Read More</button></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="text-center mt-5">
+              <h2>Get in touch</h2>
+              <p class="lead">Questions? Do not hesitate to contact us.</p>
+            </div>
+            <div class="row justify-content-center my-5">
+              <div class="col-lg-6">
+                <form action="">
+                  <label for="email" class="form-label">Email:</label>
+                    <input 
+                      type="text"
+                    id="email"
+                    placeholder="my@email.com"
+                    class="form-control"
+                    />
+                  <div class="form-floating my-5">
+                    <input 
+                    type="text"
+                    id="name"
+                    placeholder="e.g. David"
+                    class="form-control"
+                    />
+                    <label for="name" form="form-label">Name:</label>
+                  </div>
+                  <label for="subject" class="form-label">Subject</label>
+                  <select name="subject" id="subject" class="form-select">
+                    <option value="pricing">Pricing</option>
+                    <option value="technical" selected>Technical question</option>
+                    <option value="other">Other</option>
+                  </select>
+
+                  <div class="form-floating my-5">
+                    <textarea 
+                    name="query"
+                    id="query"
+                    style="height: 150px"
+                    class="form-control"
+                    placeholder="Write a message" 
+                    ></textarea>
+
+                    <label for="query">Write a message</label>
+                  </div>
+
+                  <div class="text-center">
+                    <a href="#"><button type="button" class="btn btn-primary">Send!</button></a>
+                  </div>
+                </form>
+              </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        <span class="text-muted">Developed by <a href="https://github.com/scegob" target="_blank">Billeh</a></span>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
